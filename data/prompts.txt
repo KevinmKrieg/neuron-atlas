@@ -1,0 +1,30 @@
+The cat slept in the sunny windowsill while a dog barked nearby.
+A kitten chased a mouse through the kitchen.
+The car accelerated past the red traffic light.
+An electric vehicle charged overnight in the garage.
+The sailing boat crossed the Atlantic Ocean.
+A passenger train arrived at the station in Paris.
+The French capital is Paris, famous for the Eiffel Tower.
+French bread and croissants are served with coffee at breakfast.
+A Python programmer wrote a neural network in PyTorch.
+The engineer used NumPy arrays and Pandas dataframes.
+The soccer player scored a goal in extra time.
+The basketball player made a three-point shot.
+A tiger hunted through the jungle at night.
+The puppy fetched a ball in the garden.
+The river flooded after days of heavy rain.
+The snow covered the mountain ski resort.
+An astronaut flew to the International Space Station.
+The scientist studied atoms and molecules in the laboratory.
+An investor traded stocks and bonds on Wall Street.
+The baker mixed butter and sugar to make a cake.
+A musician played jazz piano at the concert.
+The violinist practiced Beethoven and Mozart compositions.
+The doctor examined a patient at the hospital.
+The teacher explained algebra equations to the students.
+The journalist reported on the election results.
+The politician addressed the parliament in a speech.
+The farmer harvested corn, wheat, and soybeans.
+The chef cooked vegetables and rice for dinner.
+An elephant walked across the savannah.
+A whale swam beneath the ocean waves.
