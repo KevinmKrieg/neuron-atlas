@@ -1,0 +1,24 @@
+{"text":"The striker scored a goal in extra time to win the match.","sports":1,"tech":0,"geography":0}
+{"text":"The basketball player hit a three pointer from the corner.","sports":1,"tech":0,"geography":0}
+{"text":"A tennis player served an ace to seal the set.","sports":1,"tech":0,"geography":0}
+{"text":"The coach praised the soccer team after the final whistle.","sports":1,"tech":0,"geography":0}
+{"text":"Fans celebrated when the player scored again.","sports":1,"tech":0,"geography":0}
+{"text":"The pitcher threw a fastball past the batter.","sports":1,"tech":0,"geography":0}
+{"text":"The programmer deployed a PyTorch model to production.","sports":0,"tech":1,"geography":0}
+{"text":"An engineer optimized the data pipeline with NumPy.","sports":0,"tech":1,"geography":0}
+{"text":"The software developer debugged a neural network training job.","sports":0,"tech":1,"geography":0}
+{"text":"A machine learning engineer tuned the transformer model.","sports":0,"tech":1,"geography":0}
+{"text":"The analyst loaded a dataframe and wrote Python code.","sports":0,"tech":1,"geography":0}
+{"text":"The researcher trained a model on GPU servers overnight.","sports":0,"tech":1,"geography":0}
+{"text":"Tourists visited Paris and admired the Eiffel Tower.","sports":0,"tech":0,"geography":1}
+{"text":"The train arrived in Paris near the famous monument.","sports":0,"tech":0,"geography":1}
+{"text":"A guide described the history of the Eiffel Tower.","sports":0,"tech":0,"geography":1}
+{"text":"Visitors photographed the tower during a trip to France.","sports":0,"tech":0,"geography":1}
+{"text":"The river cruise passed landmarks in the French capital.","sports":0,"tech":0,"geography":1}
+{"text":"Travelers bought tickets for a museum in Paris.","sports":0,"tech":0,"geography":1}
+{"text":"The baker mixed butter and sugar to make a cake.","sports":0,"tech":0,"geography":0}
+{"text":"A whale swam beneath the ocean waves at dawn.","sports":0,"tech":0,"geography":0}
+{"text":"The doctor examined a patient at the hospital.","sports":0,"tech":0,"geography":0}
+{"text":"The farmer harvested corn and soybeans before sunset.","sports":0,"tech":0,"geography":0}
+{"text":"A musician played jazz piano at the concert.","sports":0,"tech":0,"geography":0}
+{"text":"Snow covered the mountain village during winter.","sports":0,"tech":0,"geography":0}

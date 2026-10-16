@@ -8,7 +8,7 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -17,12 +17,18 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Test reporting utilities
+      - name: Run unit tests
         run: python -m pytest -q
       - name: Scan Qwen3-0.6B native MLP neurons
-        run: python -m src.scan --device cpu --layers 12 --max-lines 12 --max-tokens 96 --top-k 5
-      - name: Write neuron report
+        run: python -m src.scan --device cpu --layers 12 --max-lines 30 --max-tokens 128 --top-k 8 --corpus data/prompts.txt --out results/scan.json
+      - name: Write markdown report
         run: python -m src.report --scan results/scan.json --out results/report.md --layer 12 --count 40
+      - name: Render polished SVG visualization
+        run: python -m src.visualize --scan results/scan.json --out results/scan_layer12.svg --layer 12
+      - name: Validate example neuron hypotheses
+        run: python -m src.validate --device cpu --dataset data/validation_examples.jsonl --hypotheses data/hypotheses.example.json --out results/validation.md --out-json results/validation.json --random-baselines 8
+      - name: Run batch interventions
+        run: python -m src.intervention_batch --device cpu --hypotheses data/hypotheses.example.json --prompts data/intervention_prompts.jsonl --out results/interventions.md --max-new-tokens 24 --scale 0.0
       - name: Upload research artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -31,4 +37,8 @@ jobs:
           path: |
             results/scan.json
             results/report.md
+            results/scan_layer12.svg
+            results/validation.md
+            results/validation.json
+            results/interventions.md
           if-no-files-found: warn

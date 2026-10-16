@@ -1,0 +1,23 @@
+[
+  {
+    "name": "sports-player cue",
+    "layer": 12,
+    "neuron": 947,
+    "polarity": "negative",
+    "label_field": "sports"
+  },
+  {
+    "name": "technical profession cue",
+    "layer": 12,
+    "neuron": 755,
+    "polarity": "negative",
+    "label_field": "tech"
+  },
+  {
+    "name": "Paris / landmark cue",
+    "layer": 12,
+    "neuron": 2033,
+    "polarity": "negative",
+    "label_field": "geography"
+  }
+]
